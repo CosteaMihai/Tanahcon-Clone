@@ -1,0 +1,92 @@
+:root {
+    --main-color: #3138d1;
+    --main-text: #222a41;
+    --lighter-text: #6d7783;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Livvic, Arial, Helvetica, sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+.rectangle {
+    position: absolute;
+    z-index: -15;
+    border-radius: 100px;
+    background: var(--main-color);
+    transform: rotate(-45deg);
+    width: 916px;
+    height: 916px;
+}
+.big-circle {
+    position: absolute;
+    z-index: -15;
+    width: 527px;
+    height: 527px;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+.dots {
+    position: absolute;
+    z-index: -10;
+}
+.circle {
+    position: absolute;
+    z-index: -5;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background: transparent;
+    border: solid 4px;
+    border-radius: 50%;
+    box-shadow: 40px 2px 80px rgba(0, 0, 0, 0.5);
+}
+.rhomb {
+    z-index: -5;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: transparent;
+    border: solid 4px;
+    transform: rotate(45deg);
+}
+.half-circle-box {
+    position: absolute;
+    z-index: -5;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: transparent;
+    overflow: hidden;
+}
+.half-circle {
+    margin-top: 19px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: solid 4px;
+    border-radius: 50%;
+}
+.quarter-circle-box {
+    position: absolute;
+    z-index: -5;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: transparent;
+    overflow: hidden;
+}
+.quarter-circle {
+    margin-top: 19px;
+    margin-left: 19px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: solid 4px;
+    border-radius: 50%;
+}

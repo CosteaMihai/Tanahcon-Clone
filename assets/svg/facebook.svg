@@ -1,0 +1,20 @@
+<svg
+                        width="8px"
+                        height="14px"
+                        viewBox="0 0 8 14"
+                        version="1.1"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <desc>Created with Lunacy</desc>
+                        <g id="Icon/Social/Facebook">
+                            <path
+                                d="M5.09322 14L5.09322 7.7L7.13342 7.7L7.46667 4.9L5.09322 4.9L5.09322 3.5364C5.09322 2.8154 5.11287 2.1 6.18754 2.1L7.27603 2.1L7.27603 0.098C7.27603 0.0679 6.34106 0 5.39518 0C3.41974 0 2.18281 1.1599 2.18281 3.29L2.18281 4.9L0 4.9L0 7.7L2.18281 7.7L2.18281 14L5.09322 14Z"
+                                transform="matrix(1 0 0 1 1.5099033E-14 0)"
+                                id="facebook"
+                                fill="#DBDBDB"
+                                fill-rule="evenodd"
+                                stroke="none"
+                            />
+                        </g>
+                    </svg>

@@ -1,0 +1,404 @@
+.second-section {
+    padding-top: 300px;
+    width: 75%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.second-section-about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-image {
+    width: 420px;
+    height: 420px;
+    border-radius: 18px;
+    box-shadow: -40px 2px 80px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+.a-bit-mobile,
+.about-me-text-mobile {
+    display: none;
+}
+.about-me {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.a-bit {
+    font-size: 18px;
+}
+.about-me-text {
+    font-size: 60px;
+    font-weight: 700;
+}
+.selection-buttons button {
+    position: relative;
+    background: transparent;
+    border: none;
+    font-family: Livvic;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 0;
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s;
+}
+.selection-buttons button:hover {
+    border-color: var(--main-color);
+}
+.selection-buttons button:focus {
+    outline: 0;
+}
+.description-section {
+    color: var(--lighter-text);
+    font-size: 15px;
+    text-align: justify;
+    width: 350px;
+
+    height: 90px;
+}
+.download-cv-button {
+    background: var(--main-color);
+    border: none;
+    font-family: Livvic;
+    font-size: 16px;
+    color: white;
+    border-radius: 9999px;
+    padding: 15px;
+    width: 170px;
+    box-shadow: 0px 14px 30px rgba(69, 158, 255, 0.2);
+}
+.download-cv-button:focus {
+    outline: 0;
+}
+.second-section-skills {
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-section {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 306px;
+    height: 343px;
+    border-radius: 18px;
+    margin: 30px;
+    background: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 76px;
+    height: 78px;
+}
+.card .card-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 20px;
+}
+.card .card-description {
+    width: 267px;
+    color: var(--lighter-text);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+.card:nth-child(2) {
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.15);
+}
+.card:nth-child(odd) {
+    margin-top: 80px;
+}
+.second-rectangle-position {
+    top: 500px;
+    left: -430px;
+    width: 724px;
+    height: 724px;
+}
+.third-dots-position {
+    top: 630px;
+    left: -15px;
+    width: 178px;
+    height: 178px;
+}
+.fourth-dots-position {
+    bottom: 15px;
+    right: -30px;
+    width: 178px;
+    height: 178px;
+}
+.circle-second-position {
+    top: 760px;
+    left: 400px;
+    border-color: var(--main-color);
+}
+.rhomb-second-position {
+    top: 400px;
+    left: 20px;
+    border-color: var(--main-color);
+}
+.half-circle-box-second-position {
+    top: 290px;
+    left: -30px;
+}
+.half-circle-border-second {
+    border-color: var(--main-color);
+}
+.quarter-circle-box-second-position {
+    top: 220px;
+    left: 90px;
+}
+.quarter-circle-border-second {
+    border-color: #3b43f2;
+}
+@media all and (max-width: 1023px) {
+    .card-section {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .second-section {
+        padding-top: 150px;
+        width: 100%;
+        align-items: center;
+    }
+    .second-section-about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-image {
+        width: 500px;
+        height: auto;
+        margin: 20px 0px;
+        box-shadow: -10px 2px 40px rgba(0, 0, 0, 0.5);
+    }
+    .about-me {
+        height: auto;
+        margin-left: 0;
+        align-items: center;
+    }
+    .a-bit,
+    .about-me-text {
+        display: none;
+    }
+    .a-bit-mobile {
+        display: block;
+        font-size: 18px;
+    }
+    .about-me-text-mobile {
+        display: block;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .description-section {
+        margin: 20px 0px;
+        height: 120px;
+        width: 500px;
+    }
+    .selection-buttons {
+        margin: 20px -20px 10px 0px;
+    }
+    .second-section-skills {
+        margin-top: 150px;
+    }
+    .second-rectangle-position {
+        top: 30px;
+        left: -500px;
+    }
+    .third-dots-position {
+        top: 450px;
+        left: 80px;
+    }
+    .fourth-dots-position {
+        bottom: 40px;
+        right: 160px;
+    }
+    .circle-second-position {
+        top: 760px;
+        left: auto;
+        right: 40px;
+    }
+    .rhomb-second-position {
+        top: 850px;
+        left: 100px;
+    }
+    .half-circle-box-second-position {
+        top: 690px;
+        left: 60px;
+    }
+    .quarter-circle-box-second-position {
+        top: 190px;
+        left: auto;
+        right: 40px;
+    }
+}
+@media all and (max-width: 767px) {
+    .card {
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.15);
+    }
+    .card:nth-child(odd) {
+        margin-top: 30px;
+    }
+
+    .second-image {
+        width: 450px;
+        margin: 20px 0px;
+        box-shadow: -10px 2px 40px rgba(0, 0, 0, 0.5);
+    }
+    .description-section {
+        width: 450px;
+    }
+    .second-rectangle-position {
+        bottom: 300px;
+        top: auto;
+        left: -300px;
+    }
+    .third-dots-position {
+        bottom: 815px;
+        left: 60px;
+        top: auto;
+    }
+    .fourth-dots-position {
+        top: 200px;
+        right: 15px;
+        bottom: auto;
+    }
+    .circle-second-position {
+        top: 760px;
+        left: auto;
+        right: 40px;
+    }
+    .rhomb-second-position {
+        top: 850px;
+        left: 100px;
+    }
+    .half-circle-box-second-position {
+        top: 690px;
+        left: 20px;
+    }
+    .half-circle-border-second {
+        border-color: var(--main-color);
+    }
+}
+@media all and (max-width: 639px) {
+    .card {
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.15);
+    }
+
+    .second-image {
+        width: 320px;
+        margin: 20px 0px;
+        box-shadow: -10px 2px 40px rgba(0, 0, 0, 0.5);
+    }
+    .description-section {
+        width: 320px;
+    }
+    .second-rectangle-position {
+        top: 30px;
+        left: -720px;
+    }
+    .third-dots-position {
+        top: 400px;
+        left: 10px;
+    }
+    .fourth-dots-position {
+        top: auto;
+        bottom: 40px;
+        right: 10px;
+    }
+    .circle-second-position {
+        top: 760px;
+        left: auto;
+        right: 40px;
+    }
+    .rhomb-second-position {
+        top: 850px;
+        left: 100px;
+    }
+    .half-circle-box-second-position {
+        top: 690px;
+        left: 20px;
+    }
+    .half-circle-border-second {
+        border-color: var(--main-color);
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+    .second-section {
+        width: 90%;
+    }
+
+    .card {
+        margin: 15px;
+    }
+    .card:nth-child(2) {
+        margin-top: 40px;
+    }
+    .card:nth-child(odd) {
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+    .second-rectangle-position {
+        top: 500px;
+        left: -450px;
+    }
+    .third-dots-position {
+        top: 630px;
+        left: -10px;
+    }
+    .fourth-dots-position {
+        bottom: 10px;
+        right: -60px;
+    }
+    .circle-second-position {
+        top: 760px;
+        left: 370px;
+    }
+    .rhomb-second-position {
+        top: 360px;
+        left: -30px;
+    }
+    .half-circle-box-second-position {
+        top: 245px;
+        left: 200px;
+    }
+    .quarter-circle-box-second-position {
+        top: 230px;
+        left: 40px;
+    }
+}
+@media all and (min-width: 1280px) and (max-width: 1673px) {
+    .second-section {
+        width: 90%;
+    }
+    .card:nth-child(2) {
+        margin-top: 40px;
+    }
+    .card:nth-child(odd) {
+        margin-bottom: 80px;
+    }
+}
+@media all and (min-width: 1024px) {
+    .about-me-image {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .about-me {
+        width: 50%;
+        margin-right: -50px;
+    }
+}

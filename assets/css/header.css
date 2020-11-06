@@ -1,0 +1,154 @@
+header {
+    background: transparent;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu,
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.social-mobile {
+    display: none;
+}
+.logo {
+    background: var(--main-color);
+    display: flex;
+    width: 55px;
+    height: 55px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center;
+}
+.navbar {
+    margin-left: 100px;
+}
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    cursor: pointer;
+}
+.navbar a:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-color);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.navbar a:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+.hamburger {
+    background: transparent;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+.hamburger:focus {
+    outline: 0;
+}
+.hamburger .bar1,
+.bar2,
+.bar3 {
+    border-radius: 5px;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.social {
+    margin-right: -50px;
+}
+.social-mobile a,
+.social a {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+@media screen and (max-width: 639px) {
+    header {
+        width: 90%;
+        position: relative;
+    }
+    .menu {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    .navbar a {
+        text-align: center;
+        margin-right: 0;
+        color: white;
+    }
+    .navbar.show-nav {
+        position: absolute;
+        z-index: 10;
+        bottom: -135px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+        padding: 10px 0px;
+        border-radius: 5px;
+        background: var(--main-color);
+        border: 1px solid white;
+    }
+    .social-mobile {
+        margin-top: 10px;
+        margin-left: 20px;
+        display: flex;
+    }
+    .social-mobile a {
+        margin-right: 20px;
+    }
+    .social {
+        display: none;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .navbar {
+        margin-left: 40px;
+    }
+    .navbar a {
+        margin-right: 10px;
+    }
+    .social {
+        margin-right: -30px;
+    }
+    .social a {
+        margin-right: 10px;
+    }
+}
+@media all and (min-width: 1674px) {
+    header {
+        width: 70%;
+    }
+}
